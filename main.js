@@ -51,7 +51,10 @@ function ReservarTurno() {
 
         if (TurnoElegido) {
             alert(`Hola ${nombre}, tenés un turno reservado en ${EspecialidadElegida} a las ${TurnoElegido}.`);
-            console.log(`Reserva realizada:\nPaciente: ${nombre}\nEspecialidad: ${EspecialidadElegida}\nHorario: ${TurnoElegido}`);
+            console.log("Reserva realizada:");
+            console.log("Paciente:", nombre);
+            console.log("Especialidad:", EspecialidadElegida);
+            console.log("Horario:", TurnoElegido);
         }
 
         let Respuesta = prompt("¿Querés reservar otro turno? (si / no)").toLowerCase();
